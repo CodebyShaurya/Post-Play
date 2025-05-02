@@ -14,6 +14,7 @@ import React, { useState } from 'react';
 
         const payload = {
           description: description || '',
+          
           mood: mood || '',
           genre: genre || '',
           language: language || '',
@@ -22,7 +23,7 @@ import React, { useState } from 'react';
         // Simulate API call (replace with actual API endpoint)
         try {
 
-          const response = await fetch('/api/music-suggestions', {
+          const response = await fetch('https://post-jiyy.onrender.com//api/music-suggestions', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
