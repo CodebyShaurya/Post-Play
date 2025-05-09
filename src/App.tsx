@@ -32,7 +32,7 @@ import React, { useState } from 'react';
           });
 
           if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+            throw new Error(`HTTP error! status: `);
           }
 
           const data = await response.json();
@@ -42,7 +42,7 @@ import React, { useState } from 'react';
           }
           setSuggestions(data.suggestions);
         } catch (error) {
-          console.error('Failed to get suggestions:', error);
+          console.error('Failed to get suggestions:', );
           setSuggestions(['Error fetching suggestions.']);
         }
       };
@@ -202,7 +202,7 @@ import React, { useState } from 'react';
             <header className="bg-white shadow-md py-4">
               <div className="container mx-auto px-4 flex items-center justify-between">
                 <Link to="/" className="text-2xl font-semibold text-gray-800 hover:text-purple-600 transition duration-300">
-                  PostPlay
+                <Music2 className="inline-block mr-2" size={32} />PostPlay
                 </Link>
                 <nav>
                   <ul className="flex space-x-6">
