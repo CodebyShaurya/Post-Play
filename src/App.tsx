@@ -200,7 +200,7 @@ function AboutUs() {
                   Developed by <span className="text-purple-600">Shaurya Gupta</span>
                   <br />
                   <a
-                    href="https://www.linkedin.com/in/shaurya-gupta"
+                    href="https://www.linkedin.com/in/shaurya--gupta"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 hover:underline"
